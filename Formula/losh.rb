@@ -8,7 +8,7 @@ class Losh < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/losh"
+    system "go", "build", *std_go_args, "./cmd/losh"
   end
 
   test do
