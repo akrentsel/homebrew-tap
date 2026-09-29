@@ -1,8 +1,8 @@
 class Losh < Formula
   desc "Run a local coding agent against remote machines over SSH"
   homepage "https://github.com/akrentsel/losh"
-  url "https://github.com/akrentsel/losh/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "c57b5e225fd5e09546fa731745ab7460f6265320bba010ad72050d2ff89f816a"
+  url "https://github.com/akrentsel/losh/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "85f1cc05c04e51b822a727d53bee2eeaf5e66a9398c3545e24c526283374d4b3"
   license "MIT"
 
   depends_on "go" => :build
